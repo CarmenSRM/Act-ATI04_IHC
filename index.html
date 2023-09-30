@@ -24,51 +24,56 @@
    </header> 
 
     <!-- Nav con Ménu-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-      <a class="navbar-brand p-1" href="#">LIBROS</a>
+    <nav class="navbar navbar-expand-lg ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
+          <li>
+            <a class="nav-link" href="#">LIBROS</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Descargas <span class="sr-only">(gratis)</span></a>
+            <a class="nav-link" href="descargas.html">DESCARGAS <span class="sr-only">(GRATIS)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Comprar</a>
+            <a class="nav-link" href="#">AUTORES</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-              Autores
+              GENEROS
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Cornelia Funke</a>
-              <a class="dropdown-item" href="#">Sofia Segovia</a>
+              <a class="dropdown-item" href="#">TERROR</a>
+              <a class="dropdown-item" href="#">CLASICOS</a>
+              <a class="dropdown-item" href="#">FANTACIAS</a>
+              <a class="dropdown-item" href="#">ROMANCE</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="autores.html">Todos</a>
+              <a class="dropdown-item" href="#">OTROS +</a>
             </div>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">+5555 55555 <span class="sr-only">(contacto)</span></a>
+            <a class="nav-link" href="#">+555 555 55 55 <span class="sr-only">(CONTACTO)</span></a>
           </li>
         </ul>
       </div>
     </nav>
 
+    <hr class="my-3 mx-auto">
+
     <!-- Libros Mejores Puntuados -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
       </ol>
-      <p class="display-5">
+      <h2 class="display-5">
         Los mejor puntuados.
-      </p>
+      </h2>
       <div class="carousel-inner">
         
         <div class="carousel-item active">
@@ -103,53 +108,51 @@
       </a>
     </div>
 
-    <hr class="my-4"> <!-- Es la rallita --> 
+    <hr class="my-4"> <!-- Es la linea --> 
 
     <!-- Géneros -->
 
     <div class="container mb-5 justify-content-center align-items-center">
       <div class="row justify-content-center align-items-center">
-        <p class="display-5">
+        <h2 class="display-5">
           Géneros más populares.
-        </p>
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="card">
+        </h2>
+        <div class="col-8 col-sm-6 col-md-3">
+          <div class="card" style="text-align: center;">
             <img src="sources/libros/fantacia.jpg" class="card-img-top2" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Fantacia</h5>
-              <p class="card-text">
-                Novela política de ficción distópica, escrita por George Orwell entre 1947 y 1948 y 
-                publicada el 8 de junio de 1949.
-              </p>
-              <a href="#" class="btn btn-info">Libros relacionados</a>
+              <h3 class="card-title">Fantacia</h3>
+              <a href="#" class="btn">Libros relacionados</a>
             </div>
           </div>
         </div>
         
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="card">
+        <div class="col-8 col-sm-6 col-md-3">
+          <div class="card" style="text-align: center;">
             <img src="sources/libros/Terror.jpg" class="card-img-top2" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Terror</h5>
-              <p class="card-text">
-                La Cenicienta es un cuento de hadas que cuenta con varias versiones, orales y escritas, 
-                antiguas y modernas, de varias partes del mundo.
-              </p>
-              <a href="#" class="btn btn-info">Libros relacionados</a>
+              <h3 class="card-title">Terror</h3>
+              <a href="#" class="btn">Libros relacionados</a>
             </div>
           </div>
         </div>
   
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="card">
+        <div class="col-8 col-sm-6 col-md-3">
+          <div class="card" style="text-align: center;">
             <img src="sources/libros/clasicos.jpg" class="card-img-top2" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Clasicos</h5>
-              <p class="card-text">
-                Su autor probablemente basó Hamlet en dos fuentes: la leyenda de Amleth y una perdida 
-                obra isabelina conocida hoy como Ur-Hamlet o Hamlet original.
-              </p>
-              <a href="#" class="btn btn-info">Libros relacionados</a>
+              <h3 class="card-title">Clasicos</h3>
+              <a href="#" class="btn">Libros relacionados</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-sm-6 col-md-3">
+          <div class="card" style="text-align: center;">
+            <img src="sources/libros/misterio.jpg" class="card-img-top2" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Misterio</h3>
+              <a href="#" class="btn">Libros relacionados</a>
             </div>
           </div>
         </div>
@@ -162,47 +165,47 @@
 
     <div class="container mb-5 justify-content-center align-items-center">
       <div class="row justify-content-center align-items-center">
-        <p class="display-5">
-          Titulos en ingles.
-        </p>
-        <div class="col-12 col-sm-6 col-md-4">
+        <h2 class="display-5">
+          Títulos en ingles.
+        </h2>
+        <div class="col-8 col-sm-6 col-md-4">
           <div class="card">
             <img src="sources/libros/1984.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title"> 1984</h5>
+              <h3 class="card-title"> 1984</h5>
               <p class="card-text">
-                Novela política de ficción distópica, escrita por George Orwell entre 1947 y 1948 y 
-                publicada el 8 de junio de 1949.
+                Es una novela política de ficción distópica, escrita por George Orwell entre 1947 y 1948 y 
+                publicada hasta día 8 de junio del año 1949.
               </p>
-              <a href="#" class="btn btn-info">Más información</a>
+              <a href="#" class="btn">Más información</a>
             </div>
           </div>
         </div>
         
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-8 col-sm-6 col-md-4">
           <div class="card">
             <img src="sources/libros/cinderella.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Cinderella</h5>
+              <h3 class="card-title">Cinderella</h5>
               <p class="card-text">
                 La Cenicienta es un cuento de hadas que cuenta con varias versiones, orales y escritas, 
                 antiguas y modernas, de varias partes del mundo.
               </p>
-              <a href="#" class="btn btn-info">Más información</a>
+              <a href="#" class="btn">Más información</a>
             </div>
           </div>
         </div>
   
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-8 col-sm-6 col-md-4">
           <div class="card">
             <img src="sources/libros/Hamlet.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Hamlet</h5>
+              <h3 class="card-title">Hamlet</h5>
               <p class="card-text">
                 Su autor probablemente basó Hamlet en dos fuentes: la leyenda de Amleth y una perdida 
                 obra isabelina conocida hoy como Ur-Hamlet o Hamlet original.
               </p>
-              <a href="#" class="btn btn-info">Más información</a>
+              <a href="#" class="btn">Más información</a>
             </div>
           </div>
         </div>
@@ -211,63 +214,98 @@
 
     <hr class="my-4">
 
-    <!-- Mayor numero de lecturas -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-      </ol>
-      <p class="display-5">
-        Más leidos .
-      </p>
-      <div class="carousel-inner">
-        
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="sources/libros/Diario.jpg" alt="First slide">
-        </div>
-        
-        <div class="carousel-item">
-          <img class="d-block w-100" src="sources/libros/Fantasma de la opera.jpg" alt="Second slide">
-        </div>
+    <!-- Lo más reciente -->
 
-        <div class="carousel-item">
-          <img class="d-block w-100" src="sources/libros/Orgullo y prejuicio.jpg" alt="Third slide">
-        </div>
+    <div class="container mb-5 justify-content-center align-items-center">
+      <h2 class="display-5">
+        Lo más reciente.
+      </h2>
+      <table class="table text-center ">
+        <thead class="thead-dark"> 
+          <tr>
+            <th scope="col"> </th>
+            <th scope="col">TITULO</th>
+            <th scope="col">AUTOR</th>
+            <th scope="col">GENERO</th>
+            <th scope="col">PORTADA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Después del deshielo</td>
+            <td>Adrienne Young</td>
+            <td>Fantacia</td>
+            <td><img src="sources/libros/Despues del deshielo.png" class="td-img-top" alt="..."></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>To kill a kindom</td>
+            <td>Alexandra Christ</td>
+            <td>Fantacia</td>
+            <td><img src="sources/libros/to kill a kindom.jpg" class="td-img-top" alt="..."></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Huracán</td>
+            <td>Sofía Segovia</td>
+            <td>Ficción</td>
+            <td><img src="sources/libros/Huracan.jpg" class="td-img-top" alt="..."></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-        <div class="carousel-item">
-          <img class="d-block w-100" src="sources/libros/El principito.jpg" alt="fourth slide">
-        </div>
+    <!-- Lo más leido -->
 
-        <div class="carousel-item">
-          <img class="d-block w-100" src="sources/libros/to kill a kindom.jpg" alt="fifth slide">
-        </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" a;ria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    <div class="container mb-5 justify-content-center align-items-center">
+      <h2 class="display-5">
+        Lo más reciente.
+      </h2>
+      <table class="table text-center ">
+        <thead class="thead-dark"> 
+          <tr>
+            <th scope="col"> </th>
+            <th scope="col">TITULO</th>
+            <th scope="col">AUTOR</th>
+            <th scope="col">GENERO</th>
+            <th scope="col">PORTADA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Después del deshielo</td>
+            <td>Adrienne Young</td>
+            <td>Fantacia</td>
+            <td><img src="sources/libros/Corazon de tinta.jpg" class="td-img-top" alt="..."></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Matar un reino</td>
+            <td>Alexandra Christ</td>
+            <td>Fantacia</td>
+            <td><img src="sources/libros/El principito.jpg" class="td-img-top" alt="..."></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Huracán</td>
+            <td>Sofía Segovia</td>
+            <td>Ficción</td>
+            <td><img src="sources/libros/Diario.jpg" class="td-img-top" alt="..."></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <!-- Pie de página -->
+
     <footer class="mt-5">
-      <div class="card bg-dark rounded-0 text-center p-4">
+      <div class="cardf rounded-0 text-center p-4">
         <div class="container">
           <div class="row">
-            <p class="text-white mb-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur, culpa amet eos ducimus 
-              magni vero labore cum excepturi veniam accusamus quis ea atque numquam ipsam recusandae! Eum, nihil 
-              eligendi quaerat molestias saepe esse labore architecto corrupti consequuntur omnis minus iure! Maxime, 
-              dolor. Recusandae facere, deserunt dolore perferendis autem debitis!
+            <p class="text-dark mb-0">
+              Ramos Macías Carmen Shaireni. 
             </p>
           </div>
         </div>
